@@ -26,10 +26,11 @@ function clickImg(value){
 	console.log("You click row"+row+"col:"+col);
 if (field[row][col]) 
     {
-var source="img/img"+field[row][col]+".jpg";
+var source="img/img"+field[row][col]+".png";
 var imageid="img"+row+col;
 console.log(imageid);
 document.getElementById(imageid).src=source;
+
 	}
 
 }
