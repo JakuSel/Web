@@ -20,14 +20,16 @@ function shuffle()
     console.log(field);
 }
 
-function clickImg(){
+function clickImg(value){
 	var row=Math.floor(value/10);
 	var col=value%10;
 	console.log("You click row"+row+"col:"+col);
-	if (field[row][col]) 
+if (field[row][col]) 
     {
-		var source="img/img"+field[row][col]+".png";
-		var imageid="img"+row+col;
-		console.log(imageid);
-		document.getElementById(imageid).src=source;
+var source="img/img"+field[row][col]+".jpg";
+var imageid="img"+row+col;
+console.log(imageid);
+document.getElementById(imageid).src=source;
 	}
+
+}
