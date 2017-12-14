@@ -1,4 +1,8 @@
 .card{
     width: 150px;
-    height: 150;
+    height: 120px;
+    
+}
+#img{
+    border-radius: 18px;
 }

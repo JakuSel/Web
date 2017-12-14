@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="style/style.css">
     <script src="js/script.js"> </script>  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     </head>
 <body>
+
+<div class="container-fluid">
+<div class="row">
 <div class="col-lg-2">
     <div>Player 1</div>
     <div id="score1"> Score:</div>
     <div><table id="tableP1"></table></div>
 </div>
 <div id="gameboard" class="col-lg-8">
-   <table width="650" border="1">
+   <table width="650" border="0">
        <tr> <!-- 1st row-->
            <td><img src="Img/back.jpg" class="card" id="img00" onclick="clickImg(00)"> </td>
            <td><img src="Img/back.jpg" class="card" id="img01" onclick="clickImg(01)"></td>
@@ -50,7 +55,7 @@
     <div id="score2"> Score:</div>
     <div><table id="tableP2"></table></div>
 </div>   
-
-	
+</div>
+</div>
 </body>
 </html>
