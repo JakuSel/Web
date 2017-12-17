@@ -138,3 +138,8 @@ function updateScore()
        document.getElementById('score2').innerHTML="Score : "+score2;
 }
 }
+    $("#btnRestart").click(function(){
+        location.reload();
+    });
+
+
